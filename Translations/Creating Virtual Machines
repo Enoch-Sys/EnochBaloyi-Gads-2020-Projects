@@ -53,7 +53,7 @@ Task 2. Create a Windows virtual machine
 	Boot disk		Change
 	Public Images 
 	Operating system >	Windows Server
-	Version		Windows Server 2016 Datacenter Core
+	Version			Windows Server 2016 Datacenter Core
 	Boot disk type		SSD persistent disk
 	Size (GB)		100
 	
@@ -112,3 +112,7 @@ Task 3. Create a custom virtual machine
 
 		exit
 			
+Task 4 Review
+In this lab, you created several virtual machine instances of different types with different characteristics.
+One was a small utility VM for administration purposes. You also created a standard VM and a custom VM. 
+You launched both Windows and Linux VMs and deleted VMs.
