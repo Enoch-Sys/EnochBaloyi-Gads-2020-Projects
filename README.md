@@ -1,1 +1,1 @@
-# Enoch Baloyi's Porjects submission
+# Enoch Baloyi's Porject submission
