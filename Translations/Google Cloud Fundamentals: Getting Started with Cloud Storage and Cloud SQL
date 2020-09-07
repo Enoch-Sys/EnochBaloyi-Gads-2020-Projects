@@ -46,7 +46,7 @@ Task 2 Create a Cloud Storage bucket using the gsutil command line
 		
 		gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png	
 	
-Task 4 Create the Cloud SQL instance
+Task 3 Create the Cloud SQL instance
 	
 Create instance.
 
@@ -65,7 +65,7 @@ For Password, type a password of your choice. Make a note of it.
 
 	gcloud sql users create blogdbuser --instance=blog-db --password=zx5tuJ99_08756 --host=35.232.51.252
 
-Task 5 Configure an application in a Compute Engine instance to use Cloud SQL
+Task 4 Configure an application in a Compute Engine instance to use Cloud SQL
 
 	connect to the bloghost Vm via ssh
 		
@@ -135,7 +135,7 @@ Task 5 Configure an application in a Compute Engine instance to use Cloud SQL
 		sudo service apache2 restart
 		
 
-Task 6 Configure an application in a Compute Engine instance to use a Cloud Storage object
+Task 5 Configure an application in a Compute Engine instance to use a Cloud Storage object
 
 Return to your ssh session on your bloghost VM instance.
 
